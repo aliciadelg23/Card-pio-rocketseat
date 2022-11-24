@@ -5,7 +5,7 @@ padding: 0;
 }
 
 body{
-background-color: #839ef8;
+background-color: #000000;
 font-family: 'Roboto', sans-serif;
 }
 ul{
@@ -16,14 +16,19 @@ ul{
 
 
 /*fonts*/
-h1,h2,h3, .price {
+h1,h2, .price {
 
     font-family: 'Roboto Serif', serif;
     text-transform: uppercase;
-    color:#2d2c2a
+    color:#292df7
     
     }
-
+h3{
+color: rgb(255, 10, 31);
+    font-family: 'Roboto Serif', serif;
+    text-transform: uppercase;
+    align-items: center;
+}
 
 header{
     text-align: center;
@@ -40,8 +45,9 @@ header h1{
     line-height: 33px;
 }
 
+
 header h1 span{
-color:hsl(352, 100%, 30%);
+color:hsl(256, 100%, 50%);
 
 }
 header p {
@@ -50,16 +56,42 @@ line-height: 16px;
 color: rgba(0, 0, 0, 0.7);
 }
 
+   
+
+
 section {
 
     margin-bottom: 24px;
 }
+img{
+    display: block;
+    margin: 0px auto;
+   }
 
+#logo{
+   align-items: center;
+	width:300px;
+	left:20px;
+	top: 200px;
+}
+.parent{
+    text-align: center;
+}
 
+.dor{
+    text-align: center;
+    
+}
+
+#dor1{
+    width: 100px;
+	left:20px;
+	top: 20px;
+}
 
 
 section h2 {
-    background-color: hsl(253, 98%, 83%);
+    background-color: hsl(0, 0%, 0%);
     padding: 8px 16px;
     text-align: center;
     margin: 24px;
@@ -67,8 +99,9 @@ section h2 {
 }
 ul li {
 
-    margin-bottom: 16px;
-    display: flex;
+    margin-bottom: 4px;
+    font-size: 28px;
+    line-height: 33px;
 }
 
 li.details {
@@ -83,7 +116,7 @@ li.details {
 }
 
 .details p {
-color: rgba(0, 0, 0, 0.6);
+color: rgba(245, 6, 6, 0.6);
 font-size: 14px;
 line-height: 21px;
 
