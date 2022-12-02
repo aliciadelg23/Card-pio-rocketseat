@@ -20,11 +20,11 @@ h1,h2, .price {
 
     font-family: 'Roboto Serif', serif;
     text-transform: uppercase;
-    color:#292df7
+    color:#4bc975
     
     }
 h3{
-color: rgb(255, 10, 31);
+color: rgb(255, 0, 0);
     font-family: 'Roboto Serif', serif;
     text-transform: uppercase;
     align-items: center;
@@ -38,9 +38,15 @@ header, section {
     margin: 0 auto;
 
 }
+.logo2{
+    text-align: center;
+}
 
 header h1{
+   text-align: center;
     margin-bottom: 4px;
+
+
     font-size: 28px;
     line-height: 33px;
 }
@@ -77,7 +83,10 @@ img{
 .parent{
     text-align: center;
 }
+.c{
 
+    text-align: center;
+}
 .dor{
     text-align: center;
     
